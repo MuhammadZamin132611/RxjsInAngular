@@ -9,7 +9,7 @@ import { FromEventComponent } from './observable/from-event/from-event.component
 const routes: Routes = [
   {path: 'promise', component: PromoiseComponent},
   {path: 'observable', component: ObservableComponent, children:[
-    {path: 'list', component:ListComponent},
+    {path: '', component:ListComponent},
     {path: 'from-event', component:FromEventComponent},
   ]},
   {path: '**', redirectTo:'promise'}
