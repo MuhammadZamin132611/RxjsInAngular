@@ -60,7 +60,7 @@ export class MapComponent implements OnInit {
     ])
 
     members.pipe(map(data=>data.name)).subscribe(res=>{
-      // console.log(res)
+      console.log(res)
       this.designutility.print(res,'elContainer')
     })
   }
