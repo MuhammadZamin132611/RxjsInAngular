@@ -15,6 +15,7 @@ import { TapOperatorComponent } from './observable/tap-operator/tap-operator.com
 import { TakeOperatorComponent } from './observable/take-operator/take-operator.component';
 import { RetryOperatorComponent } from './observable/retry-operator/retry-operator.component';
 import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
+import { SubjectComponent } from './observable/subject/subject.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,7 @@ const routes: Routes = [
     {path: 'take-operator', component:TakeOperatorComponent},
     {path: 'retry-operator', component:RetryOperatorComponent},
     {path: 'debounce-time', component:DebounceTimeComponent},
+    {path: 'subject', component:SubjectComponent},
   ]},
   {path: '**', redirectTo:'promise'}
 ];

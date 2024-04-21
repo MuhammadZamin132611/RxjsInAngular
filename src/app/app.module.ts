@@ -21,6 +21,10 @@ import { TakeOperatorComponent } from './observable/take-operator/take-operator.
 import { RetryOperatorComponent } from './observable/retry-operator/retry-operator.component';
 import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
+import { SubjectComponent } from './observable/subject/subject.component';
+import { Comp1Component } from './comps/comp1/comp1.component';
+import { Comp2Component } from './comps/comp2/comp2.component';
+import { Comp3Component } from './comps/comp3/comp3.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
     TapOperatorComponent,
     TakeOperatorComponent,
     RetryOperatorComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    SubjectComponent,
+    Comp1Component,
+    Comp2Component,
+    Comp3Component
   ],
   imports: [
     BrowserModule,
