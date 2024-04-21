@@ -1,0 +1,10 @@
+{
+    "user": {
+        "email": "zamin@gmail.com",
+        "gender": "Male",
+        "name": "MD Zamin",
+        "phone": 9807654321,
+        "skill": "Angular, Typescript, Html",
+        "id":1
+    }
+}
