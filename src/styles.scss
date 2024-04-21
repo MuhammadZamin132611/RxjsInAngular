@@ -61,3 +61,16 @@ ul.techList.complete li{
     background-color: rgba(61, 216, 67, 0.08);
     border-color: #3dd843;
 }
+
+ul.video-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.video-list li{
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
