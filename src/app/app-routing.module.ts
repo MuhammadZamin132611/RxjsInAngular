@@ -25,6 +25,7 @@ import { ConcatMapComponent } from './observable/concat-map/concat-map.component
 import { ConcatMap2Component } from './observable/concat-map2/concat-map2.component';
 import { SwitchMapComponent } from './observable/switch-map/switch-map.component';
 import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
+import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
 
 
 const routes: Routes = [
@@ -53,6 +54,7 @@ const routes: Routes = [
     {path: 'concat-map2', component:ConcatMap2Component},
     {path: 'switchMap', component:SwitchMapComponent},
     {path: 'switchMap2', component:SwitchMap2Component},
+    {path: 'exhaustMap', component:ExhaustMapComponent},
   ]},
   {path: '**', redirectTo:'promise'}
 ];

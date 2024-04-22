@@ -1,0 +1,24 @@
+<div class="my-3">
+    <h2>ExhaustMap</h2>
+    <br>
+    <br>
+    <h5>Save Data</h5>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-6">
+            <!-- (click)="buttonClick()" -->
+            <button #btn class="btn btn-success">Save Data</button>
+        </div>
+        <div class="col-md-6">
+            <div *ngIf="fetching" class="text-center">
+                <div class="spinner-border text-warning" role="status">
+                    <!-- <div class="sr-only">Loading...</div> -->
+                </div>Saving...
+            </div>
+            <ul class="video-list">
+                <li><strong>Save Request: </strong>{{saveRequest}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

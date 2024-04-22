@@ -36,6 +36,7 @@ import { ConcatMap2Component } from './observable/concat-map2/concat-map2.compon
 import { SwitchMapComponent } from './observable/switch-map/switch-map.component';
 import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
 import { FormsModule } from '@angular/forms';
+import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { FormsModule } from '@angular/forms';
     ConcatMapComponent,
     ConcatMap2Component,
     SwitchMapComponent,
-    SwitchMap2Component
+    SwitchMap2Component,
+    ExhaustMapComponent
   ],
   imports: [
     BrowserModule,
