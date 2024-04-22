@@ -27,6 +27,7 @@ import { Comp2Component } from './comps/comp2/comp2.component';
 import { Comp3Component } from './comps/comp3/comp3.component';
 import { ReplaySubjectComponent } from './observable/replay-subject/replay-subject.component';
 import { FooterComponent } from './includes/footer/footer.component';
+import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { FooterComponent } from './includes/footer/footer.component';
     Comp2Component,
     Comp3Component,
     ReplaySubjectComponent,
-    FooterComponent
+    FooterComponent,
+    AsyncSubjectComponent
   ],
   imports: [
     BrowserModule,
