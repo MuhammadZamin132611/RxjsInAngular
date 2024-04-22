@@ -30,6 +30,7 @@ import { FooterComponent } from './includes/footer/footer.component';
 import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
 import { ConcatComponent } from './observable/concat/concat.component';
 import { MergeComponent } from './observable/merge/merge.component';
+import { MergeMapComponent } from './observable/merge-map/merge-map.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { MergeComponent } from './observable/merge/merge.component';
     FooterComponent,
     AsyncSubjectComponent,
     ConcatComponent,
-    MergeComponent
+    MergeComponent,
+    MergeMapComponent
   ],
   imports: [
     BrowserModule,

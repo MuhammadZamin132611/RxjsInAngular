@@ -20,6 +20,7 @@ import { ReplaySubjectComponent } from './observable/replay-subject/replay-subje
 import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
 import { ConcatComponent } from './observable/concat/concat.component';
 import { MergeComponent } from './observable/merge/merge.component';
+import { MergeMapComponent } from './observable/merge-map/merge-map.component';
 
 
 const routes: Routes = [
@@ -43,6 +44,7 @@ const routes: Routes = [
     {path: 'async-subject', component:AsyncSubjectComponent},
     {path: 'concat', component:ConcatComponent},
     {path: 'merge', component:MergeComponent},
+    {path: 'merge-map', component:MergeMapComponent},
   ]},
   {path: '**', redirectTo:'promise'}
 ];
