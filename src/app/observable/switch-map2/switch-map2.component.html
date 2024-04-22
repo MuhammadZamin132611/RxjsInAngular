@@ -1,0 +1,42 @@
+<div class="my-3">
+    <h1>SwitchMap</h1>
+    <br>
+    <h5>Search Uxtrendz Videos</h5>
+    <form #seachForm = "ngForm">
+        <div class="pt-3">
+            <input type="text" required ngModel name="searchTerm" autocomplete="off"
+            class="form-control form-control-lg">
+        </div>
+    </form>
+    <br>
+    <hr>
+    <br>
+
+    <div class="results" *ngIf="!searchResult">
+        <div class="d-flex justify-content-between">
+            <h5>Search Results</h5>
+            <span class="text-muted">{{searchResultCount}} Results Found...</span>
+        </div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Thumnail</th>
+                    <th scope="col">Title & Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of searchResult; index as i">
+                    <th scope="row">{{i+1}}</th>
+                    <td><img width="120"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZDtpLHESPf0qBrMxM7dhBwyms_RI8UBMIjoKKdvXlYw&s"
+                            alt=""></td>
+                    <td>
+                        <strong>{{item.title}}</strong>
+                        <p>{{item.description}}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
