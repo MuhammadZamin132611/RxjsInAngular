@@ -28,6 +28,8 @@ import { Comp3Component } from './comps/comp3/comp3.component';
 import { ReplaySubjectComponent } from './observable/replay-subject/replay-subject.component';
 import { FooterComponent } from './includes/footer/footer.component';
 import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { AsyncSubjectComponent } from './observable/async-subject/async-subject.
     Comp3Component,
     ReplaySubjectComponent,
     FooterComponent,
-    AsyncSubjectComponent
+    AsyncSubjectComponent,
+    ConcatComponent,
+    MergeComponent
   ],
   imports: [
     BrowserModule,
