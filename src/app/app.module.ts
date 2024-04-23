@@ -40,6 +40,7 @@ import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.compon
 import { ShareReplayComponent } from './observable/share-replay/share-replay.component';
 import { CombineLastComponent } from './observable/combine-last/combine-last.component';
 import { ZipForkjoinComponent } from './observable/zip-forkjoin/zip-forkjoin.component';
+import { CatchErrorThrowErrorComponent } from './observable/catch-error-throw-error/catch-error-throw-error.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { ZipForkjoinComponent } from './observable/zip-forkjoin/zip-forkjoin.com
     ExhaustMapComponent,
     ShareReplayComponent,
     CombineLastComponent,
-    ZipForkjoinComponent
+    ZipForkjoinComponent,
+    CatchErrorThrowErrorComponent
   ],
   imports: [
     BrowserModule,
