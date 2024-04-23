@@ -27,6 +27,7 @@ import { SwitchMapComponent } from './observable/switch-map/switch-map.component
 import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
 import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
 import { ShareReplayComponent } from './observable/share-replay/share-replay.component';
+import { CombineLastComponent } from './observable/combine-last/combine-last.component';
 
 
 const routes: Routes = [
@@ -57,6 +58,7 @@ const routes: Routes = [
     {path: 'switchMap2', component:SwitchMap2Component},
     {path: 'exhaustMap', component:ExhaustMapComponent},
     {path: 'shareReplay', component:ShareReplayComponent},
+    {path: 'combineLast', component:CombineLastComponent},
   ]},
   {path: '**', redirectTo:'promise'}
 ];
