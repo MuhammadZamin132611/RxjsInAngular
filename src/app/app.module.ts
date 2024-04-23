@@ -39,6 +39,7 @@ import { FormsModule } from '@angular/forms';
 import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
 import { ShareReplayComponent } from './observable/share-replay/share-replay.component';
 import { CombineLastComponent } from './observable/combine-last/combine-last.component';
+import { ZipForkjoinComponent } from './observable/zip-forkjoin/zip-forkjoin.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { CombineLastComponent } from './observable/combine-last/combine-last.com
     SwitchMap2Component,
     ExhaustMapComponent,
     ShareReplayComponent,
-    CombineLastComponent
+    CombineLastComponent,
+    ZipForkjoinComponent
   ],
   imports: [
     BrowserModule,
