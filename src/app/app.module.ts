@@ -37,6 +37,7 @@ import { SwitchMapComponent } from './observable/switch-map/switch-map.component
 import { SwitchMap2Component } from './observable/switch-map2/switch-map2.component';
 import { FormsModule } from '@angular/forms';
 import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.component';
+import { ShareReplayComponent } from './observable/share-replay/share-replay.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { ExhaustMapComponent } from './observable/exhaust-map/exhaust-map.compon
     ConcatMap2Component,
     SwitchMapComponent,
     SwitchMap2Component,
-    ExhaustMapComponent
+    ExhaustMapComponent,
+    ShareReplayComponent
   ],
   imports: [
     BrowserModule,
